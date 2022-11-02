@@ -8,6 +8,6 @@ This is my second project in TOP's curriculum! This project will test my recentl
 - rely on inheritance to express the same functionality but with cleaner CSS and HTML code
 - correct use of `flex: auto, initial, none, or 1, 2, 3, etc.`
 - using flex properties like `gap` and `margin` to simplify CSS code
-- maintaining a responsive design that works well for both mobile and desktop
+- maintaining a responsive design that works well for desktop (ignoring mobile for this project)
 
 Please enjoy!
