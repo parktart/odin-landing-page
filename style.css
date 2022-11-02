@@ -133,8 +133,10 @@ figcaption {
   margin: 64px 0;
 }
 
-
-
+.section-five {
+  padding: 24px 0;
+  text-align: center;
+}
 
 blockquote {
   font-size: 36px;
