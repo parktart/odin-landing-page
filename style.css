@@ -12,6 +12,7 @@ html {
   margin: 0;
   padding: 0;
   /* border: 1px solid red; */
+  /* color: white; */
 }
 
 body {
@@ -117,6 +118,24 @@ figcaption {
   font-size: 18px;
 }
 
+.section-four {
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+.action-container {
+  width: 900px;
+  padding: 32px 96px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  margin: 64px 0;
+}
+
+
+
+
 blockquote {
   font-size: 36px;
   font-style: italic;
@@ -131,7 +150,7 @@ blockquote {
 
 .info,
 .text,
-blockquote {
+.three-container {
   color: #1f2937;
 }
 
@@ -166,9 +185,18 @@ blockquote {
   color: white;
 }
 
+.action-container .button {
+  border: 1px solid white;
+}
+
 .button,
 .action-container {
   background-color: #3882f6;
+}
+
+.action-big-text {
+  font-size: 24px;
+  font-weight: bold;
 }
 
 a {
