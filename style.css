@@ -11,13 +11,11 @@ html {
 * {
   margin: 0;
   padding: 0;
-  /* border: 1px solid red; */
-  /* color: white; */
 }
 
 body {
   font-family: 'Roboto', sans-serif;
-  min-height: 100vh;
+  min-height: 100vh; /* fill the viewport */
   display: flex;
   flex-direction: column;
 }
@@ -31,7 +29,6 @@ body {
 .header-container {
   display: flex;
   justify-content: center;
-  padding: 20px 0;
 }
 
 .header {
@@ -39,19 +36,20 @@ body {
   display: flex;
   align-items: center;
   gap: 24px;
+  margin: 20px 0;
 }
 
 .hero-container {
   display: flex;
   justify-content: center;
-  padding-top: 60px;
-  padding-bottom: 120px;
 }
 
 .hero {
   width: 900px;
   display: flex;
   gap: 24px;
+  margin-top: 60px;
+  margin-bottom: 120px;
 }
 
 .hero-left {
@@ -63,7 +61,7 @@ body {
 }
 
 .hero-small-text {
-  padding: 8px 0;
+  margin: 8px 0;
 }
 
 .placeholder {
@@ -123,7 +121,7 @@ figcaption {
   color: white;
   display: flex;
   justify-content: center;
-  margin-bottom: auto;
+  margin-bottom: auto; /* push footer to bottom of page */
 }
 
 .action-container {
@@ -152,9 +150,8 @@ blockquote {
   margin: 40px 0;
 }
 
-.info,
-.text,
-.three-container {
+.section-two,
+.section-three {
   color: #1f2937;
 }
 
