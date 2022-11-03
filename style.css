@@ -25,10 +25,10 @@ body {
   background-color: #1f2937;
 }
 
-.section-one,
 .section-four,
 .section-five,
-.button {
+.button,
+.placeholder {
   color: white;
 }
 
@@ -177,7 +177,7 @@ blockquote {
 }
 
 .hero-small-text,
-.section-one a {
+.header a {
   font-size: 18px;
   color: #e5e7eb;
 }
