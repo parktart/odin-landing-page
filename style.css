@@ -23,6 +23,12 @@ body {
 .section-one,
 .section-five {
   background-color: #1f2937;
+}
+
+.section-one,
+.section-four,
+.section-five,
+.button {
   color: white;
 }
 
@@ -118,7 +124,6 @@ figcaption {
 }
 
 .section-four {
-  color: white;
   display: flex;
   justify-content: center;
   margin-bottom: auto; /* push footer to bottom of page */
@@ -183,7 +188,6 @@ blockquote {
   border-radius: 8px;
   font-family: 'Roboto', sans-serif;
   font-size: 1rem;
-  color: white;
 }
 
 .action-container .button {
