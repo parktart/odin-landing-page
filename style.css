@@ -18,8 +18,8 @@ html {
 body {
   font-family: 'Roboto', sans-serif;
   min-height: 100vh;
-  /* display: flex; */
-  /* flex-direction: column; */
+  display: flex;
+  flex-direction: column;
 }
 
 .section-one,
@@ -123,6 +123,7 @@ figcaption {
   color: white;
   display: flex;
   justify-content: center;
+  margin-bottom: auto;
 }
 
 .action-container {
